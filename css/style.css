@@ -1,13 +1,37 @@
 .wrapper{            
-    max-width: 1170px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
 }
 
-#Headers{
+.Headers{
     color: rgb(148, 121, 29);
     text-align: center;
 	font-size: 24pt;
 }
+
+#picoast {
+    max-height: fit-content;
+    max-width: 100%;
+}
+
+#mypast {
+    margin-right: 20%;
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    top: 5%;
+    bottom:auto;
+}
+
+#mypresent {
+    margin-right: 20%;
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    top: 5%;
+    bottom:auto;
+}
+
