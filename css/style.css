@@ -12,15 +12,22 @@
 	font-size: 24pt;
 }
 
-/* .container{
+#whole{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container{
     position:sticky;
-} */
+    top: 0;
+}
 
 .container-contents{
     display: flex;
     background-color: black;
     justify-content: space-around;
     padding: 1vw;
+    
 }
 
 .links{
@@ -32,18 +39,18 @@
 
 .column{
     display: flex;
-    justify-content: center;
+    /* justify-content: flex-start; */
     flex-direction: column;
-    align-content: flex-end;
-    left: 1000px;
+    /* align-content: flex-end; */
+    position: sticky;
+    top: 45px;
 }
 
-.sidebar{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: flex-end;
-}
+ /* .sidebar{
+    position: relative;
+    
+    left: 80vw;
+} *> */
 
 .pics{
     width: 20vw;
