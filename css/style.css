@@ -1,5 +1,5 @@
 .wrapper{            
-    max-width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
@@ -12,18 +12,65 @@
 	font-size: 24pt;
 }
 
-#picoast {
-    max-height: fit-content;
-    max-width: 100%;
+/* .container{
+    position:sticky;
+} */
+
+.container-contents{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 1vw;
+}
+
+.links{
+    color: bisque;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-end;
+    left: 1000px;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.pics{
+    width: 20vw;
+    height: auto;
+}
+
+.landscapes {
+    height: 400px;
+    width: 1000px;
+    object-fit: cover;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+
 }
 
 #mypast {
+    top: 5vh;
     margin-right: 20%;
     text-align: left;
     font-size: 18pt;
     font-family: 'Times New Roman', Times, serif;
     top: 5%;
     bottom:auto;
+    color: azure;
 }
 
 #mypresent {
@@ -33,5 +80,10 @@
     font-family: 'Times New Roman', Times, serif;
     top: 5%;
     bottom:auto;
+    color: azure;
+}
+
+body{
+    background-image: url("../Images/henrique-hanemann-Ha4Mrwo04C8-unsplash.jpg");
 }
 
